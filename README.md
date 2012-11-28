@@ -34,3 +34,5 @@ You can find the pre-built custom compiler in `superstartup-compiler/build/sscom
 ```
 
     After the build is successful, you can find the jar file in the `build` folder.
+
+If you are having problems with `ant jar` or the build produces errors, try a `ant clean` first.
