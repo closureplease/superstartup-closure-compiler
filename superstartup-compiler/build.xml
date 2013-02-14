@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="superstartupclosurecompiler" default="build">
     <property name="src.dir" value="${basedir}/src" />
-    <property name="build.dir" value="${basedir}/build" />
+    <property name="build.dir" value="${basedir}/../build" />
     <property name="classes.dir" value="${basedir}/classes" />
-    <property name="closure-compiler.jar" value="../google-closure-compiler/build/compiler.jar" />
+    <property name="closure-compiler.jar" value="${basedir}/../build/compiler.jar" />
     <property name="closure-compiler.dir" value="${basedir}/../google-closure-compiler" />
 
 
@@ -29,11 +29,8 @@
             </manifest>
         </jar>
     </target>
+
     <target name="build" depends="superstartupclosurecompiler" />
-
-
-
-
 
     <target name="closure-compiler-jar"
             description="builds the Closure Compiler jar">
