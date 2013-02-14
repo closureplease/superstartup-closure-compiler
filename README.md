@@ -38,10 +38,11 @@ ant jar
 
 4. Now time to build the custom compiler, move to the `superstartup-compiler` directory and issue the same build command:
 ```shell
-    cd superstartup-compiler
-    ant jar
+cd superstartup-compiler
+ant jar
 ```
 
     After the build is successful, you can find the jar file in the `build` folder.
 
 If you are having problems with `ant jar` or the build produces errors, try a `ant clean` first.
+
