@@ -3,8 +3,8 @@
     <property name="src.dir" value="${basedir}/src" />
     <property name="build.dir" value="${basedir}/build" />
     <property name="classes.dir" value="${basedir}/classes" />
-    <property name="closure-compiler.jar" value="../closure-compiler/build/compiler.jar" />
-    <property name="closure-compiler.dir" value="${basedir}/../closure-compiler" />
+    <property name="closure-compiler.jar" value="../google-closure-compiler/build/compiler.jar" />
+    <property name="closure-compiler.dir" value="${basedir}/../google-closure-compiler" />
 
 
     <target name="clean">
