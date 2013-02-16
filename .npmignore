@@ -1,2 +1,3 @@
-google-closure-compiler
-superstartup-compiler
+google-closure-compiler/*
+superstartup-compiler/*
+npm-debug.log
