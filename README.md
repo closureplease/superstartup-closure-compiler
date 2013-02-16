@@ -2,11 +2,36 @@
 
 A package that contains a compiled `.jar` version of the [Google Closure Compiler](https://developers.google.com/closure/compiler/) and a special build that will strip out all `goog.debug` calls, and more specifically logging.
 
-## Instructions
+## Quick Start
 
+Install...
 ```shell
-npm istall superstartup-closure-compiler
+npm istall superstartup-closure-compiler --save-deps
 ```
+
+Pretty nothing atm, just two methods:
+
+* **getPath()**
+  - Get the relative path to the closure compiler *.jar* file.
+
+* **getPathSS()**
+  - Get the relative path to the superstartup compiler *.jar* file.
+
+example:
+```js
+var compiler = require('superstartup-closure-compiler'),
+    exec     = require('require('child_process').exec');
+
+/* ... */
+
+var command = compiler.getPath() + ' ' + compilerOptions;
+
+// run the compiler command
+exec( command, cb );
+
+```
+
+## Build One Of Your Own!
 
 You can find the two builds in the `build/` folder:
 
