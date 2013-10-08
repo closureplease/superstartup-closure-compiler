@@ -2,6 +2,8 @@
 
 A package that contains a compiled `.jar` version of the [Google Closure Compiler](https://developers.google.com/closure/compiler/) and a special build that will strip out all `goog.debug` calls, and more specifically logging.
 
+> **Build Version** [SHA fb0f2fd](https://code.google.com/p/closure-compiler/source/detail?r=fb0f2fd881cd00766b90d78072ea9ab30e5d7da7) Oct-08-2013
+
 ## Quick Start
 
 Install...
@@ -46,12 +48,10 @@ git submodule init
 git submodule update
 ```
 
-2. Optionally, you may want to update the compiler sources to the latest version. You need to add Adinardi's repo as the upstream, it is an svn mirror that updates every hour:
+2. Optionally, you may want to update the compiler sources to the latest version:
 ```shell
 cd google-closure-compiler
-git remote add upstream git://github.com/adinardi/google-closure-compiler.git
-git fetch upstream
-git rebase upstream/master
+git pull
 ```
 
 3. Build closure compiler with [ant](http://ant.apache.org/). At the root of closure's compiler source tree, there is an Ant file named `build.xml`. To use it, navigate to the same directory and type the command:
