@@ -21,11 +21,12 @@ Pretty nothing atm, just two methods:
 
 example:
 ```js
-var compiler = require('superstartup-closure-compiler'),
-    exec     = require('require('child_process').exec');
+var compiler = require('superstartup-closure-compiler');
+var exec = require('child_process').exec;
 
 /* ... */
 
+// prepare the command for the CLI
 var command = compiler.getPath() + ' ' + compilerOptions;
 
 // run the compiler command
