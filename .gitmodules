@@ -1,3 +1,0 @@
-[submodule "google-closure-compiler"]
-	path = google-closure-compiler
-	url = git@github.com:thanpolas/google-closure-compiler.git
