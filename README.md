@@ -8,7 +8,7 @@ A package that contains a compiled `.jar` version of the [Google Closure Compile
 
 Install...
 ```shell
-npm istall superstartup-closure-compiler --save-deps
+npm install superstartup-closure-compiler --save-deps --silent
 ```
 
 Pretty nothing atm, just two methods:
