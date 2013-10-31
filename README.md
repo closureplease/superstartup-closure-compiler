@@ -2,7 +2,7 @@
 
 A package that contains a compiled `.jar` version of the [Google Closure Compiler](https://developers.google.com/closure/compiler/) and a special build that will strip out all `goog.debug` calls, and more specifically logging.
 
-> **Build Version** [SHA fb0f2fd](https://code.google.com/p/closure-compiler/source/detail?r=fb0f2fd881cd00766b90d78072ea9ab30e5d7da7) Oct-08-2013
+> **Build Version** [SHA 579770a](https://code.google.com/p/closure-compiler/source/detail?r=579770a) Oct-25-2013
 
 ## Quick Start
 
